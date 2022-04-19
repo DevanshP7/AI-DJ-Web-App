@@ -86,3 +86,20 @@ canvas{
     border-radius: 20px;
     transform: scaleX(-1);
 }
+
+#stop_button{
+    font-family: 'updock', cursive;
+    font-size: 50px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: rgb(0, 176, 21);
+    transition: transform 1s, background-color 1s, color 1s;
+}
+
+#stop_button:hover{
+    transform: scale(1.5);
+    color: rgb(0, 176, 21);
+    background-color: aliceblue;
+}

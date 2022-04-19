@@ -15,9 +15,13 @@ function draw(){
 }
 
 function preload(){
-    song = loadSound('music.mp3');
+    song = loadSound("music.mp3");
 }   
 
 function play_music(){
     song.play();
+}
+
+function stop_music(){
+    song.stop();
 }
