@@ -84,7 +84,7 @@ canvas{
     border: 5px dashed rgb(121, 121, 252);
     background-color: aliceblue;
     border-radius: 20px;
-    transform: scaleX(-1);
+/*  transform: scaleX(-1);*/
 }
 
 #stop_button{
